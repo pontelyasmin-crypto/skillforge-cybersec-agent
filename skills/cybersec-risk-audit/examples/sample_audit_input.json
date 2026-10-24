@@ -1,0 +1,42 @@
+{
+  "audit_title": "Auditoria de Segurança & Conformidade Q4",
+  "organization": "FinTech Core Services",
+  "tolerance_threshold": 5.0,
+  "metrics": [
+    {
+      "metric": "Criptografia de Dados (Rest & Transit)",
+      "status": "OK",
+      "risk_score": 1.0,
+      "classification": "Green Flag",
+      "benchmark": "NIST SP 800-52 / TLS 1.3"
+    },
+    {
+      "metric": "Política de Patch Management",
+      "status": "OK",
+      "risk_score": 2.0,
+      "classification": "Green Flag",
+      "benchmark": "CIS Controls v8 (Asset Mgt)"
+    },
+    {
+      "metric": "Conformidade LGPD / ISO 27001",
+      "status": "OK",
+      "risk_score": 1.0,
+      "classification": "Green Flag",
+      "benchmark": "Auditoria LGPD Art. 46"
+    },
+    {
+      "metric": "Tempo Médio de Resposta a Incidentes",
+      "status": "Crítico",
+      "risk_score": 8.5,
+      "classification": "Red Flag",
+      "benchmark": "NIST SP 800-61 Rev. 2"
+    },
+    {
+      "metric": "Uso de Runtimes Sem Atualização",
+      "status": "Vulnerável",
+      "risk_score": 9.0,
+      "classification": "Red Flag",
+      "benchmark": "NVD NIST / CVE Advisories"
+    }
+  ]
+}
